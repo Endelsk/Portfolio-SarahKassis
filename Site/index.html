@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptation de tailles pour les mobiles et autres tailles d'écran -->
+    <title>Sarah Kassis - Portfolio BUT2 RT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"> <!-- Police du site -->
+    <link rel="stylesheet" href="style.css"> <!--Lien CSS -->
+</head>
+<body>
+
+    <header class="barre-nav">
+        <div class="logo">
+            <img src="logo.png" alt="Logo IUTV" class="logo-img">
+        </div>
+        <nav>
+            <ul class="lien-nav">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#expériences professionnelles">Expériences Professionnelles</a></li>
+                <li><a href="#contact" class="bouton-contact-nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="accueil">
+        <div class="accueil-contenu">
+            <p class="sous-titre">Étudiante en BUT 2 Réseaux & Télécommunications</p>
+            <h1>Sarah <span class="highlight-texte">Kassis</span></h1>
+            <p class="description">
+                Spécialisée en <strong>Réseau</strong> et infrastructure informatique.
+            </p>
+            <div class="bouton-accueil">
+                <a href="#projets" class="bouton bouton-1">Voir mes projets</a>
+                <a href="#contact" class="bouton bouton-2">Me contacter</a>
+            </div>
+        </div>
+    </section>
+    <section id="apropos" class="apropos">
+        <div class="box grille-apropos">
+            
+            <div class="box-img-apropos">
+                <div class="tour-image">
+                    <img src="sorbonneparis13.jpg" alt="image IUTV" class="sorbonne-img">
+                </div>
+            </div>
+            
+            <div class="apropos-contenu">
+                <h2 class="titre-section">À propos de moi</h2>
+                <div class="trait"></div>
+                
+                <p class="biographie">
+                    Je suis actuellement une étudiante en deuxième année de <strong>BUT Réseaux & Télécommunications (spécialité Cybersécurité)</strong> à l'Université Sorbonne Paris Nord.
+                    Dans cette formation, j'aborde des thèmes comme l'administration des systèmes et la sécurisation des infrastructures.
+                </p>
+                
+                <div class="grille-passions">
+                    
+                    <div class="carte-passions">
+                        <div class="conteneur-icone">
+                            <img src="logo-strat.png" alt="Icône Stratégie" class="icone-image">
+                        </div>
+                        <h3>Stratégie</h3>
+                        <p>Jeux RTS : Réactivité, sens tactique et prise de décision.</p>
+                    </div>
+                    
+                    <div class="carte-passions">
+                        <div class="conteneur-icone">
+                            <img src="logo-manga.png" alt="Icône Manga" class="icone-image">
+                        </div>
+                        <h3>Manga</h3>
+                        <p>Persévérance et sens du détail sur des projets longs.</p>
+                    </div>
+                    
+                    <div class="carte-passions">
+                        <div class="conteneur-icone">
+                            <img src="logo-voyage.png" alt="Icône Voyage" class="icone-image">
+                        </div>
+                        <h3>Voyages</h3>
+                        <p>Adaptabilité et ouverture d'esprit.</p>
+                    </div>
+
+                </div>
+
+                <div class="cv-dl">
+                    <a href="CV_Kassis_Sarah.pdf" class="bouton bouton-1" download="CV_Sarah_Kassis_BUTR&T.pdf">
+                        Télécharger mon CV (PDF)
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="competences" class="competences">
+        <div class="box">
+            <h2 class="titre-section">Mes Compétences</h2>
+            <div class="trait"></div>
+            
+            <p class="description">
+                Voici toute les compétences et les outils que j'ai pu maitriser à travers mon cursus en BUT et mes projets pratiques.
+            </p>
+
+            <div class="grille-competenses">
+                <div class="carte-competenses">
+                    <div class="conteneur-icone">
+                        <img src="logo-sys.png" alt="Icône Systèmes" class="icone-image">
+                    </div>
+                    <h3>Administration Systèmes</h3>
+                    <p>Déploiement et gestion d'environnements clients et serveurs, gestion des identités et des accès.</p>
+                    <div class="competenses-boutons">
+                        <span>Linux (Debian/Ubuntu)</span>
+                        <span>Windows Server</span>
+                        <span>Active Directory / GPO</span>
+                        <span>Machines Virtuelles</span>
+                    </div>
+                </div>
+
+                <div class="carte-competenses">
+                    <div class="conteneur-icone">
+                        <img src="logo-reseau.png" alt="Icône Réseaux" class="icone-image">
+                    </div>
+                    <h3>Infrastructures Réseaux</h3>
+                    <p>Conception de topologies, configuration d'équipements actifs et mise en place de services réseaux.</p>
+                    <div class="competenses-boutons">
+                        <span>Routage & VLAN</span>
+                        <span>Cisco / Switchs</span>
+                        <span>DNS / DHCP</span>
+                        <span>TCP/IP & OSI</span>
+                    </div>
+                </div>
+
+                <div class="carte-competenses">
+                    <div class="conteneur-icone">
+                        <img src="logo-cyber.png" alt="Icône Cybersécurité" class="icone-image">
+                    </div>
+                    <h3>Cybersécurité</h3>
+                    <p>Analyse de trafic, sécurisation des accès, audit de vulnérabilités et sensibilisation.</p>
+                    <div class="competenses-boutons">
+                        <span>Wireshark</span>
+                        <span>Firewall / ACL</span>
+                        <span>VPN</span>
+                        <span>Nmap / Pentesting basique</span>
+                    </div>
+                </div>
+
+                <div class="carte-competenses">
+                    <div class="conteneur-icone">
+                        <img src="logo-script.png" alt="Icône Scripting" class="icone-image">
+                    </div>
+                    <h3>Automatisation & Scripting</h3>
+                    <p>Développement d'outils pour l'administration, l'automatisation de tâches et la gestion de données.</p>
+                    <div class="competenses-boutons">
+                        <span>Python</span>
+                        <span>Bash / Shell</span>
+                        <span>PowerShell</span>
+                        <span>SQL & PHP</span>
+                    </div>
+                </div>
+            </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="projets" class="projets">
+        <div class="box">
+            <h2 class="titre-section">Mes Projets & SAÉ</h2>
+            <div class="trait"></div>
+            
+            <p class="description">
+                Voici un aperçu des compétences et des acquis que j'ai consolidés à travers les différents projets menés lors de ma formation.
+            </p>
+
+            <div class="grille-projets">
+                
+                <div class="carte-projets">
+                    <div class="header-projets">
+                        <span class="equipe-projets"> > Équipe de 6</span>
+                        <span class="bouton-sae">SAÉ 2.01</span> </div>
+                    <h3>Ingénierie réseau pour une PME</h3>
+                    
+                    <div class="contenu-projet">
+                        <h4>Objectif :</h4>
+                        <p>Mise en place et configuration d'un réseau informatique complet. Définition de la topologie, implémentation des services et rédaction des livrables techniques.</p>
+                        
+                        <h4>Démarche & Autoévaluation :</h4>
+                        <p class="texte-reflexion">
+                            <strong>Difficultés :</strong> La coordination à 6 a été complexe. J'ai dû mettre en place des outils de suivi pour éviter que les configurations ne se chevauchent.<br>
+                            <strong>Acquis :</strong> J'ai amélioré ma capacité à concevoir une topologie logique sur Packet Tracer avant de passer sur du matériel physique. Autonomie sur le routage statique.
+                        </p>
+                    </div>
+
+                    <h4>Preuves & Traces :</h4>
+                    <div class="preuves-projet">
+                        <a href="#" class="bouton-preuve"> Rapport Technique</a>
+                    </div>
+                    
+                    <div class="bouton-projets">
+                        <span>Cisco</span>
+                        <span>DNS / DHCP</span>
+                        <span>Gestion de projet</span>
+                    </div>
+                </div>
+
+                <div class="carte-projets">
+                    <div class="header-projets">
+                        <span class="equipe-projets"> > Équipe de 2</span>
+                        <span class="bouton-sae">SAÉ Cyber</span>
+                    </div>
+                    <h3>Sensibilisation à la Cybersécurité</h3>
+                    
+                    <div class="contenu-projet">
+                        <h4>Objectif :</h4>
+                        <p>Acculturation d'un public novice aux bonnes pratiques d'hygiène numérique. Diagnostic des risques et vulgarisation technique.</p>
+                        
+                        <h4>Démarche & Autoévaluation :</h4>
+                        <p class="texte-reflexion">
+                            <strong>Démarche :</strong> Analyse des failles humaines les plus courantes (phishing) et création de supports visuels adaptés à un public non technique.<br>
+                            <strong>Acquis :</strong> Renforcement de mes compétences en communication et en pédagogie. J'ai appris à traduire des termes techniques (Cyber) en langage clair.
+                        </p>
+                    </div>
+
+                    <h4>Preuves & Traces :</h4>
+                    <div class="preuves-projet">
+                        <a href="#" class="bouton-preuve"> Support de présentation</a>
+                    </div>
+                    
+                    <div class="bouton-projets">
+                        <span>Vulgarisation</span>
+                        <span>Audit de risques</span>
+                        <span>Communication</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    </body>
+</html>
